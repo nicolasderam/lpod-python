@@ -361,7 +361,7 @@ class odf_document(object):
             close_after = True
         else:
             handler = path_or_file
-            name = getattr(_file, 'name')
+            name = getattr(handler, 'name')
         name = os.path.basename(name)
         # Generate a safe portable name
         uuid = str(uuid4())
