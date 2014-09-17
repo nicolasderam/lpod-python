@@ -75,7 +75,8 @@ ODF_NAMESPACES = {
     'xsd': "http://www.w3.org/2001/XMLSchema",
     'xsi': "http://www.w3.org/2001/XMLSchema-instance",
     'manifest': "urn:oasis:names:tc:opendocument:xmlns:manifest:1.0",
-    'xml': 'http://www.w3.org/XML/1998/namespace'
+    'xml': 'http://www.w3.org/XML/1998/namespace',
+    'calcext': "urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0",
 }
 
 
